@@ -1,14 +1,12 @@
 media:
-  folder: assets/images
-  publicPath: /assets/images
+  input: assets/images
+  output: /assets/images
 
 content:
   - name: projects
     label: Technical Projects
     type: collection
-    folder: _projects
-    create: true
-    format: frontmatter
+    path: _projects
     fields:
       - name: title
         label: Project Title
@@ -21,10 +19,13 @@ content:
       - name: tools
         label: Tech Stack / Tools Used
         type: string
-        description: "e.g., Altium Designer, C++, LTspice"
-      - name: header.overlay_image
-        label: Cover Image / Schematic
-        type: image
+      - name: header
+        label: Header Options
+        type: object
+        fields:
+          - name: overlay_image
+            label: Cover Image / Schematic
+            type: image
       - name: body
         label: Project Details
         type: rich-text
@@ -32,9 +33,7 @@ content:
   - name: experience
     label: Professional Experience
     type: collection
-    folder: _experience
-    create: true
-    format: frontmatter
+    path: _experience
     fields:
       - name: title
         label: Company / Organization
@@ -47,20 +46,15 @@ content:
       - name: dates
         label: Date Range
         type: string
-        description: "e.g., Jan 2026 - April 2026"
       - name: body
         label: Responsibilities & Achievements
         type: rich-text
 
-  - name: pages
-    label: Main Pages
+  - name: home
+    label: Home Page
     type: file
-    files:
-      - name: home
-        label: Home Page
-        file: index.md
-        format: frontmatter
-        fields:
-          - name: body
-            label: Page Content
-            type: rich-text
+    path: index.md
+    fields:
+      - name: body
+        label: Page Content
+        type: rich-text
