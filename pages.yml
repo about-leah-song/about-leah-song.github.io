@@ -1,0 +1,66 @@
+media:
+  folder: assets/images
+  publicPath: /assets/images
+
+content:
+  - name: projects
+    label: Technical Projects
+    type: collection
+    folder: _projects
+    create: true
+    format: frontmatter
+    fields:
+      - name: title
+        label: Project Title
+        type: string
+        required: true
+      - name: description
+        label: Short Description
+        type: string
+        required: true
+      - name: tools
+        label: Tech Stack / Tools Used
+        type: string
+        description: "e.g., Altium Designer, C++, LTspice"
+      - name: header.overlay_image
+        label: Cover Image / Schematic
+        type: image
+      - name: body
+        label: Project Details
+        type: rich-text
+
+  - name: experience
+    label: Professional Experience
+    type: collection
+    folder: _experience
+    create: true
+    format: frontmatter
+    fields:
+      - name: title
+        label: Company / Organization
+        type: string
+        required: true
+      - name: role
+        label: Role / Title
+        type: string
+        required: true
+      - name: dates
+        label: Date Range
+        type: string
+        description: "e.g., Jan 2026 - April 2026"
+      - name: body
+        label: Responsibilities & Achievements
+        type: rich-text
+
+  - name: pages
+    label: Main Pages
+    type: file
+    files:
+      - name: home
+        label: Home Page
+        file: index.md
+        format: frontmatter
+        fields:
+          - name: body
+            label: Page Content
+            type: rich-text
