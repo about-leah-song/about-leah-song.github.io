@@ -1,6 +1,6 @@
 ---
 title: HV Digital Fault Recording
-description: Shell Canada Internship Final Assessment Project
+description: Shell Canada Assessed Internship
 tools: C37.118, GOOSE, SEL Real-Time Automation Controls
 header:
   overlay_image: /assets/images/integrated-dfr-solutions-rtac-collect-event-reports-1.jpg
