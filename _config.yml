@@ -1,3 +1,9 @@
 title: Leah Song | Engineering Portfolio
-description: Electrical Engineering undergraduate at UBC specializing in hardware prototyping, electronics design, and power systems.
+description: Electrical Engineering undergraduate at UBC specializing in hardware prototyping, firmware, and power systems.
 theme: jekyll-theme-cayman
+
+collections:
+  projects:
+    output: true
+  experience:
+    output: true
