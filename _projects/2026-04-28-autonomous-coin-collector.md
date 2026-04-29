@@ -1,6 +1,6 @@
 ---
 title: Autonomous Coin Collector
-description: ELEC 291 Final Project
+description: ELEC 291
 tools: C/C++, Python, Motor Controls
 header:
   overlay_image: /assets/images/Screenshot 2026-04-28 201128.png
