@@ -7,10 +7,12 @@ Hello! I am an Electrical Engineering student at the University of British Colum
 
 [Download My Full Resume (PDF)](/resume.pdf)
 
+
 ## Skills
 * **Hardware:** Altium Designer, LTspice, MATLAB, SolidWorks
 * **Software:** C/C++, Python, Verilog, ARMv7
 * **Protocols:** IEEE C37.118, IEC 61850 GOOSE, Modbus, PLC
+
 
 ## Contact
 * **Email** lsong.professional@outlook.com
