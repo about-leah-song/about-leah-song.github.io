@@ -1,5 +1,5 @@
 ---
-title: Digital Fault Recorder Implementation
+title: HV Digital Fault Recording
 description: Shell Canada Internship Final Assessment Project
 tools: C37.118, GOOSE, SEL Real-Time Automation Controls
 header:
