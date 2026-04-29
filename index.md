@@ -17,3 +17,19 @@ Hello! I am an Electrical Engineering student at the University of British Colum
 ## Contact
 * **Email** lsong.professional@outlook.com
 * **Phone Number** 778-879-3502
+
+
+## Professional Experience
+
+{% for job in site.experience %}
+* [**{{ job.title }}**]({{ job.url }}) — *{{ job.role }}*
+{% endfor %}
+
+## Technical Projects
+
+{% for project in site.projects %}
+* [**{{ project.title }}**]({{ project.url }}) 
+  *Tools: {{ project.tools }}*
+  <br>{{ project.description }}
+
+{% endfor %}
