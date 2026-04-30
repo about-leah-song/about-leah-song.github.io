@@ -7,3 +7,16 @@ collections:
     output: true
   experience:
     output: true
+
+# Tell Jekyll to use project card page template
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "portfolio-item"
+  - scope:
+      path: ""
+      type: "experience"
+    values:
+      layout: "portfolio-item"
