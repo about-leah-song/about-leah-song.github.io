@@ -47,7 +47,8 @@ title: Technical Projects
 Here is a selection of my hardware and firmware engineering work, including university projects and hackathon prototypes.
 
 <div class="project-grid">
-  {% for project in site.projects %}
+  {% assign sorted_projects = site.projects | sort: 'order' %}
+  {% for project in sorted_projects %}
   <div class="project-card">
     <a href="{{ project.url }}" style="text-decoration: none; color: inherit;">
       {% if project.header.overlay_image %}
