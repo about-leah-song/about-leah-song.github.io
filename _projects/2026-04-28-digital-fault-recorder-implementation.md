@@ -1,5 +1,6 @@
 ---
 title: HV Digital Fault Recording
+order: 2
 description: Shell Canada Assessed Internship
 tools: C37.118, GOOSE, SEL Real-Time Automation Controls
 header:
