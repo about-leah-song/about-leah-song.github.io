@@ -45,7 +45,6 @@ header_image: /assets/images/header3.jpg
   }
 </style>
 
-## Technical Projects
 Here is a selection of my hardware and firmware engineering work, including university projects and hackathon prototypes.
 
 <div class="project-grid">
