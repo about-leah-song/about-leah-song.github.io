@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Professional Experience
+description: Internships, research positions, and engineering team leadership.
+header_image: /assets/images/shell-refinery-bg.jpg
 ---
 
 <style>
@@ -76,7 +78,6 @@ title: Professional Experience
   }
 </style>
 
-## Professional Experience
 My recent internships, research positions, and engineering team leadership roles.
 
 <div class="job-list">
