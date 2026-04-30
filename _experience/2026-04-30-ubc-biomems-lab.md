@@ -1,5 +1,6 @@
 ---
 title: UBC BioMEMS Lab
+logo: /assets/images/ubc-logo.png
 role: Undergraduate Academic Assistant
 dates: Jan. 2026 - Present
 ---
