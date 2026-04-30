@@ -1,5 +1,6 @@
 ---
 title: Reflow Oven Controller
+order: 5
 description: ELEC 291
 tools: ARMv7, Temperature Controls
 header:
