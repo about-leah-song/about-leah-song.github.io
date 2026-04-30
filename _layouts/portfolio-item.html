@@ -13,7 +13,7 @@ layout: default
     border-radius: 8px;
     display: flex;
     align-items: center;
-    gap: 25px; /* Creates space between the logo and the text */
+    gap: 25px;
   }
   .meta-logo {
     max-width: 90px;
@@ -29,7 +29,7 @@ layout: default
   .meta-company {
     font-size: 1.5em;
     font-weight: bold;
-    color: #155799; /* Cayman blue */
+    color: #155799; 
     margin: 0 0 5px 0;
   }
   .portfolio-hero-image {
@@ -49,20 +49,24 @@ layout: default
 <article>
   <div class="portfolio-header">
     <div class="portfolio-meta">
-      
-      <!-- Checks if you uploaded a logo, and displays it -->
       {% if page.logo %}
         <img src="{{ page.logo }}" alt="{{ page.title }} logo" class="meta-logo">
       {% endif %}
-      
-      <!-- Stacks your text details next to the logo -->
       <div class="meta-details">
         <h1 class="meta-company">{{ page.title }}</h1>
         {% if page.tools %}<div><strong>Tools:</strong> {{ page.tools }}</div>{% endif %}
         {% if page.role %}<div><strong>Role:</strong> {{ page.role }}</div>{% endif %}
         {% if page.dates %}<div><strong>Dates:</strong> {{ page.dates }}</div>{% endif %}
       </div>
-
     </div>
+  </div>
+
+  {% if page.header.overlay_image %}
+    <img src="{{ page.header.overlay_image }}" alt="{{ page.title }}" class="portfolio-hero-image">
+  {% endif %}
+
+  <!-- This is the crucial tag that was missing! -->
+  <div class="portfolio-content">
+    {{ content }}
   </div>
 </article>
