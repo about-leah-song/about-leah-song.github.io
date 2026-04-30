@@ -69,7 +69,7 @@ layout: default
 Hello! I am an Electrical Engineering student at the University of British Columbia. My background spans hardware prototyping, firmware development, and power systems design. I would love any opportunity for a coffee chat to learn more about your experience and share some of my passions! 
 
 <div class="button-container">
-  <a href="/assets/images/your-exact-filename.pdf" target="_blank" rel="noopener noreferrer" class="btn-resume">View My Full Resume (PDF)</a>
+  <a href="/assets/images/Technical_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-resume">View My Full Resume (PDF)</a>
 </div>
 
 
