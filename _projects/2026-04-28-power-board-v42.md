@@ -1,5 +1,6 @@
 ---
 title: Power Board V4.2
+order: 1
 description: UBC Thunderbots Electrical Sub-Team
 tools: Altium
 header:
