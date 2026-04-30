@@ -1,5 +1,6 @@
 ---
 title: WellNest Smart Dispenser
+order: 3
 description: CMD-F Hackathon 2026
 tools: Onshape CAD, C/C++
 header:
