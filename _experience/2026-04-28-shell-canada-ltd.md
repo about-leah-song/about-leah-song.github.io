@@ -1,5 +1,6 @@
 ---
 title: Shell Canada Ltd.
+logo: /assets/images/royal-dutch-shell-logo-vector-graphics-perkins-oil-co-portable-network-graphics-png-favpng-M1zKyer4aiFPyWRdTrW9Ui88B.jpg
 role: Electrical Engineering Intern
 dates: May 2025 - Dec. 2025
 ---
