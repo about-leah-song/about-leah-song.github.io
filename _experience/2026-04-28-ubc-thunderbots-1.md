@@ -1,5 +1,6 @@
 ---
 title: UBC Thunderbots
+order: 4
 logo: /assets/images/295276504_476841027778022_5470570787111748834_n.jpg
 role: Electrical/Mechanical Sub-Team Member
 dates: Sep. 2023 - Dec. 2025
