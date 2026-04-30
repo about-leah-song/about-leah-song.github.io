@@ -1,5 +1,6 @@
 ---
 title: Shell Canada Ltd.
+order: 3
 logo: /assets/images/Screenshot 2026-04-30 093733.png
 role: Electrical Engineering Intern
 dates: May 2025 - Dec. 2025
