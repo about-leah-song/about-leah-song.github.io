@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    
+    <style>
+      /* Dropdown Menu CSS */
+      .top-nav { position: absolute; top: 25px; right: 40px; z-index: 100; font-family: "Open Sans", sans-serif; }
+      .top-nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 25px; }
+      .top-nav a { color: rgba(255,255,255,0.85); text-decoration: none; font-weight: bold; font-size: 1.1em; transition: color 0.2s; }
+      .top-nav a:hover { color: #ffffff; }
+      
+      .dropdown { position: relative; }
+      .dropdown-menu { 
+        display: none; position: absolute; right: 0; top: 120%; 
+        background: white; border-radius: 6px; min-width: 180px; 
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15); overflow: hidden; 
+      }
+      .dropdown-menu a { color: #155799; padding: 12px 20px; display: block; font-size: 1em; border-bottom: 1px solid #f0f0f0; }
+      .dropdown-menu a:hover { background: #f4f8fa; color: #155799; }
+      .dropdown:hover .dropdown-menu { display: block; }
+    </style>
+  </head>
+  
+  <body>
+    <!-- Your Custom Navigation -->
+    <nav class="top-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li class="dropdown">
+          <a href="#" style="cursor: default;">Portfolio ▾</a>
+          <div class="dropdown-menu">
+            <a href="/projects.html">Technical Projects</a>
+            <a href="/experience.html">Professional Experience</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- The Standard Cayman Header & Content -->
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+    </main>
+  </body>
+</html>
