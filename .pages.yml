@@ -39,6 +39,9 @@ content:
         label: Company / Organization
         type: string
         required: true
+      - name: logo
+        label: Company Logo
+        type: image
       - name: role
         label: Role / Title
         type: string
@@ -49,7 +52,7 @@ content:
       - name: body
         label: Responsibilities & Achievements
         type: rich-text
-
+        
   - name: home
     label: Home Page
     type: file
