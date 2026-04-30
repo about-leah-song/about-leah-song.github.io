@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Technical Projects
+description: A selection of my hardware prototyping, firmware, and hackathon projects.
+header_image: /assets/images/header3.jpg
 ---
 
 <style>
