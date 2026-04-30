@@ -45,7 +45,7 @@ layout: default
 ## About Me
 Hello! I am an Electrical Engineering student at the University of British Columbia. My background spans hardware prototyping, firmware development, and power systems design. I would love any opportunity for a coffee chat to learn more about your experience and share some of my passions! 
 
-[Download My Full Resume (PDF)](/resume.pdf)
+<a href="/assets/images/Technical_Resume.pdf" target="_blank" rel="noopener noreferrer">View My Full Resume (PDF)</a>
 
 
 ## Skills
