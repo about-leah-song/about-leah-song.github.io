@@ -39,13 +39,38 @@ layout: default
     color: #555;
     margin: 5px 0;
   }
+  .button-container {
+    text-align: center;
+    margin: 30px 0; /* Adds breathing room above and below the button */
+  }
+  
+  .btn-resume {
+    display: inline-block;
+    background-color: #159957; /* Cayman Theme Green */
+    color: #ffffff !important; /* Forces the text to be white */
+    padding: 12px 28px;
+    border-radius: 50px; /* Gives it a modern, pill-shaped look */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+  }
+  
+  .btn-resume:hover {
+    background-color: #127c46; /* Slightly darker green when hovered */
+    transform: translateY(-2px); /* Makes it "pop" up slightly */
+    text-decoration: none;
+  }
 </style>
 
 
 ## About Me
 Hello! I am an Electrical Engineering student at the University of British Columbia. My background spans hardware prototyping, firmware development, and power systems design. I would love any opportunity for a coffee chat to learn more about your experience and share some of my passions! 
 
-<a href="/assets/images/Technical_Resume.pdf" target="_blank" rel="noopener noreferrer">View My Full Resume (PDF)</a>
+<div class="button-container">
+  <a href="/assets/images/your-exact-filename.pdf" target="_blank" rel="noopener noreferrer" class="btn-resume">View My Full Resume (PDF)</a>
+</div>
 
 
 ## Skills
