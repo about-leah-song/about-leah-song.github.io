@@ -32,9 +32,6 @@
           of the image. It starts lighter and fades darker at the bottom, making 
           the white text pop against ANY image (schematics, circuit boards, etc.)
         */
-        background-image: 
-          linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%),
-          url('/assets/images/header2.jpg'); /* <-- SWAP 'header-bg.jpg' FOR YOUR FILENAME */
         
         /* Ensures the image fills the entire area without stretching ugly */
         background-size: cover;
@@ -74,9 +71,14 @@
     </nav>
 
     <!-- The Standard Cayman Header & Content -->
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">{{ site.description }}</h2>
+    <!-- This checks if the page has a custom image; if not, it uses your default campus one -->
+    <header class="page-header" role="banner" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%), url('{% if page.header_image %}{{ page.header_image }}{% else %}/assets/images/header2.jpg{% endif %}');">
+      
+      <!-- This uses the page title if it exists; otherwise, it defaults to "Leah Song's Portfolio" -->
+      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+      
+      <!-- This uses a page description if you provide one; otherwise, it leaves it blank or uses the site default -->
+      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
     </header>
 
     <main id="content" class="main-content" role="main">
