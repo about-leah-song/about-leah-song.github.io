@@ -25,6 +25,36 @@
       .dropdown-menu a { color: #155799; padding: 12px 20px; display: block; font-size: 1em; border-bottom: 1px solid #f0f0f0; }
       .dropdown-menu a:hover { background: #f4f8fa; color: #155799; }
       .dropdown:hover .dropdown-menu { display: block; }
+      /* Target the main page header */
+      .page-header {
+        /*
+          The "safety overlay": We add a subtle dark gradient ON TOP 
+          of the image. It starts lighter and fades darker at the bottom, making 
+          the white text pop against ANY image (schematics, circuit boards, etc.)
+        */
+        background-image: 
+          linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%),
+          url('/assets/images/header.jpg'); /* <-- SWAP 'header-bg.jpg' FOR YOUR FILENAME */
+        
+        /* Ensures the image fills the entire area without stretching ugly */
+        background-size: cover;
+        
+            /* Centers the most important part of the image */
+            background-position: center;
+        
+        /* Ensures the gradient overlay is applied and repeated properly */
+        background-repeat: no-repeat;
+        
+        /* Add a direct shadow to the main title text to be extra safe */
+        text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+      }
+      
+      /* Tweak the tagline slightly so it looks better against a photo */
+      .project-tagline {
+        font-size: 1.25rem;
+        opacity: 0.95;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+      }
     </style>
   </head>
   
