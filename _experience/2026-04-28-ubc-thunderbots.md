@@ -1,5 +1,6 @@
 ---
 title: UBC Thunderbots
+order: 2
 logo: /assets/images/295276504_476841027778022_5470570787111748834_n-1.jpg
 role: Electrical Lead/Captain
 dates: Jan. 2026 - Present
