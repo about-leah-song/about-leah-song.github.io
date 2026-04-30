@@ -1,5 +1,6 @@
 ---
 title: Autonomous Coin Collector
+order: 4
 description: ELEC 291
 tools: C/C++, Python, Motor Controls
 header:
