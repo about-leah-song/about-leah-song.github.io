@@ -12,6 +12,9 @@ content:
         label: Project Title
         type: string
         required: true
+      - name: order
+        label: Display Order (1 is top)
+        type: number
       - name: description
         label: Short Description
         type: string
@@ -39,6 +42,9 @@ content:
         label: Company / Organization
         type: string
         required: true
+      - name: order
+        label: Display Order (1 is top)
+        type: number
       - name: logo
         label: Company Logo
         type: image
