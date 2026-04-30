@@ -2,7 +2,7 @@
 layout: default
 title: Professional Experience
 description: Internships, research positions, and engineering team leadership.
-header_image: /assets/images/shell-refinery-bg.jpg
+header_image: /assets/images/header4.jpg
 ---
 
 <style>
