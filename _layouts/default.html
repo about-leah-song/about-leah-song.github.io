@@ -13,9 +13,12 @@
       .top-nav a { color: rgba(255,255,255,0.85); text-decoration: none; font-weight: bold; font-size: 1.1em; transition: color 0.2s; }
       .top-nav a:hover { color: #ffffff; }
       
-      .dropdown { position: relative; }
+      /* We add padding-bottom here to create a safe, invisible bridge for your mouse */
+      .dropdown { position: relative; padding-bottom: 20px; }
+      
       .dropdown-menu { 
-        display: none; position: absolute; right: 0; top: 120%; 
+        display: none; position: absolute; right: 0; 
+        top: 100%; /* Sits exactly flush with the bottom of the invisible bridge */ 
         background: white; border-radius: 6px; min-width: 180px; 
         box-shadow: 0 8px 20px rgba(0,0,0,0.15); overflow: hidden; 
       }
