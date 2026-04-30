@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<style>
+  .portfolio-header {
+    margin-bottom: 30px;
+  }
+  .portfolio-title {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: #155799; /* Cayman theme blue */
+  }
+  .portfolio-meta {
+    font-size: 1.1em;
+    color: #555;
+    background: #f4f8fa;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  .portfolio-hero-image {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    margin-bottom: 30px;
+  }
+  .portfolio-content {
+    line-height: 1.6;
+    font-size: 1.1em;
+  }
+</style>
+
+<article>
+  <div class="portfolio-header">
+    <h1 class="portfolio-title">{{ page.title }}</h1>
+    
+    <!-- This handles both Projects (Tools) and Experience (Roles/Dates) -->
+    <div class="portfolio-meta">
+      {% if page.tools %}<strong>Tools:</strong> {{ page.tools }}<br>{% endif %}
+      {% if page.role %}<strong>Role:</strong> {{ page.role }}<br>{% endif %}
+      {% if page.dates %}<strong>Dates:</strong> {{ page.dates }}{% endif %}
+    </div>
+  </div>
+
+  <!-- If the project has a cover image, display it big at the top -->
+  {% if page.header.overlay_image %}
+    <img src="{{ page.header.overlay_image }}" alt="{{ page.title }}" class="portfolio-hero-image">
+  {% endif %}
+
+  <!-- This is where your rich-text paragraphs and bullet points will go -->
+  <div class="portfolio-content">
+    {{ content }}
+  </div>
+</article>
