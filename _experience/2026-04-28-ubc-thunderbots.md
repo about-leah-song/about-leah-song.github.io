@@ -2,10 +2,10 @@
 title: UBC Thunderbots
 order: 2
 logo: /assets/images/295276504_476841027778022_5470570787111748834_n-1.jpg
-role: Electrical Lead/Captain
+role: Captain
 dates: Jan. 2026 - Present
 ---
-• Competed on autonomous soccer robotics team at international tournaments, successfully placing 2nd at RoboCup Eindhoven 2024. 
+• Competed on autonomous soccer robotics team at international tournaments, successfully placing 2nd at RoboCup Eindhoven 2024 and 9th at RoboCup Incheon 2026.
 
 • Coordinated rebuild of electrical PCB stack-up of motor drivers, power board, and breakbeam assembly to fulfill size constraints while maximizing signal integrity. 
 
